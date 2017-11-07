@@ -1,16 +1,126 @@
+/*
+IntVentures Main Stylesheet
+Kelsey Legault
+November 2017
+*/
 
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
     color: #112E47;
-    -webkit-font-smoothing: subpixel-antialiased;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Untitled Sans', serif;
     font-size: 65px;
-    font-family: 'Untitled Sans';
-    line-height: 80px;
     font-weight: 200;
+    line-height: 80px;
+    padding: 180px 0 85px 0;
+    color: #112E47;
+}
+
+p {
+    font-size: 15px;
+    max-width: 450px;
+    margin-top: 22px;
+    line-height: 25px;
+}
+
+header {
+    font-family: 'Untitled Sans', serif;
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 12px;
+}
+
+header a {
+    color: #112E47;
+    font-weight: 200;
+    margin-left: 50px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.inner-container {
+    margin: 0 auto;
+    padding: 0 12px;
+    max-width: 1000px;
 }
 
 .hero-heading {
     max-width: 760px;
+}
+
+.hero-illustration {
+    width: 600px;
+    position: absolute;
+    right: -200px;
+    top: 300px;
+}
+
+.synergy-ball {
+    position: absolute;
+    right: 60px;
+    top: 520px;
+    width: 204px;
+    z-index: -1;
+}
+
+.hero-paragraph {
+    margin-top: 50px;
+}
+
+.button {
+    border: #112E47 solid 2px;
+    border-radius: 2px;
+    padding: 8px 16px;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+._space-between {
+    justify-content: space-between;
+}
+
+._direction-column {
+    flex-direction: column;
+}
+
+._justify-content-center {
+    justify-content: center;
+}
+
+._alignitems-center {
+    align-items: center;
+}
+
+@media (min-width: 1000px) {
+    .hero-illustration {
+        width: 641px;
+        right: -200px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .hero-illustration {
+        right: -100px;
+    }
+    .synergy-ball {
+        right: 160px;
+    }
 }

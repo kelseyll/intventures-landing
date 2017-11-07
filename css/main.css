@@ -85,6 +85,20 @@ header a {
     padding: 8px 16px;
 }
 
+.testimonials span:first-of-type {
+    font-family: 'Untitled Sans', serif;
+    padding-bottom: 4px;
+}
+
+.testimonials a {
+    border-bottom: 1px #92FF50 solid;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #112E47;
+    white-space: nowrap;
+}
+
 /* Flex */
 .flex {
     display: flex;
@@ -107,6 +121,42 @@ header a {
 
 ._alignitems-center {
     align-items: center;
+}
+
+._alignitems-flex-end {
+    align-items: flex-end;
+}
+
+.testimonials {
+    margin: 50px 0;
+}
+
+.testimonials img {
+    height: 60px;
+    padding-right: 20px;
+}
+
+.testimonial {
+    padding-right: 75px;
+}
+
+.testimonial:last-of-type {
+    margin-top: 70px;
+}
+
+.testimonials:last-child {
+    margin-left: 70px;
+}
+
+.testimonials .row:last-child {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.howitworks-illustration {
+    position: absolute;
+    left: 0;
+    top: 1440px;
 }
 
 @media (min-width: 1000px) {

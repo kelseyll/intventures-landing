@@ -23,7 +23,7 @@ h1 {
     font-size: 65px;
     font-weight: 200;
     line-height: 80px;
-    padding: 180px 0 85px 0;
+    padding: 120px 0 85px 0;
     color: #112E47;
 }
 
@@ -50,14 +50,24 @@ header a {
     text-decoration: none;
 }
 
+a {
+    transition: 0.5s;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
 .inner-container {
     margin: 0 auto;
     padding: 0 12px;
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 .hero-heading {
     max-width: 760px;
+    padding-top: 180px;
 }
 
 .hero-illustration {
@@ -155,8 +165,49 @@ header a {
 
 .howitworks-illustration {
     position: absolute;
-    left: 0;
-    top: 1440px;
+    left: -10px;
+    top: 1380px;
+}
+
+.howitworks-text {
+    margin-top: -90px;
+    padding-left: 300px;
+}
+
+.howitworks-text .in {
+    padding-left: 150px;
+}
+
+.howitworks-text span,
+.company span {
+    font-family: 'HK Grotesk', sans-serif;
+}
+
+.howitworks-text span:first-child {
+    color: #ACFF70;
+    padding-right: 40px;
+}
+
+.howitworks-text p {
+    padding-left: 70px;
+}
+
+.step {
+    margin-top: 110px;
+}
+
+h1.our-company  {
+    margin-top: 80px;
+    padding: 80px 30px 0 0;
+    text-align: right;
+}
+
+.company {
+    margin-top: 80px;
+}
+
+.company-asset {
+    padding-right: 130px;
 }
 
 @media (min-width: 1000px) {

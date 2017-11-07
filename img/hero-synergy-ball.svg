@@ -3,11 +3,16 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>hero-synergy-ball@2x</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <defs>
+        <circle id="path-1" cx="113.5" cy="103.5" r="70.5"></circle>
+    </defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="hero-synergy-ball">
             <g id="nebulus" transform="translate(-7.000000, -10.000000)">
-                <circle id="globe" fill="#ACFAFF" transform="translate(113.500000, 103.500000) rotate(-195.000000) translate(-113.500000, -103.500000) " cx="113.5" cy="103.5" r="70.5"></circle>
+                <g id="globe" transform="translate(113.500000, 103.500000) rotate(-195.000000) translate(-113.500000, -103.500000) ">
+                    <use fill="#ACFAFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#ACFAFF" stroke-width="2" cx="113.5" cy="103.5" r="71.5"></circle>
+                </g>
                 <path d="M185.671011,72.1743994 C197.762082,46.009131 192.528822,31.3582617 169.971231,28.2217914 C154.620069,26.087323 110.833108,39.3695929 77.9438737,67.6130785 C53.1128294,88.9366289 34.1920586,120.770209 31.5787082,141.568609 C28.2169516,168.323212 39.5017053,179.019357 65.4329692,173.657044" id="orbit-04" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" transform="translate(111.500000, 101.500000) rotate(-13.000000) translate(-111.500000, -101.500000) "></path>
                 <path d="M185.671011,79.1743994 C197.762082,53.009131 192.528822,38.3582617 169.971231,35.2217914 C154.620069,33.087323 110.833108,46.3695929 77.9438737,74.6130785 C53.1128294,95.9366289 34.1920586,127.770209 31.5787082,148.568609 C28.2169516,175.323212 39.5017053,186.019357 65.4329692,180.657044" id="orbit-03" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" transform="translate(111.500000, 108.500000) rotate(-123.000000) translate(-111.500000, -108.500000) "></path>
                 <path d="M185.671011,75.1743994 C197.762082,49.009131 192.528822,34.3582617 169.971231,31.2217914 C154.620069,29.087323 110.833108,42.3695929 77.9438737,70.6130785 C53.1128294,91.9366289 34.1920586,123.770209 31.5787082,144.568609 C28.2169516,171.323212 39.5017053,182.019357 65.4329692,176.657044" id="orbit-02" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" transform="translate(111.500000, 104.500000) rotate(-339.000000) translate(-111.500000, -104.500000) "></path>

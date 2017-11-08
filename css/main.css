@@ -48,7 +48,7 @@ header {
 }
 
 header div:first-child img {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 40px auto;
     display: block;
 }
 
@@ -211,7 +211,6 @@ a:hover {
 
 .howitworks-text span:first-child {
     color: #ACFF70;
-    padding-right: 10px;
 }
 
 .step {
@@ -277,17 +276,18 @@ h1.our-company  {
 }
 
 footer {
-    margin: 200px auto 50px auto;
+    margin: 130px auto 50px auto;
     display: block;
     height: 300px;
 }
 
 footer .logo {
-    float: right;
+    margin: 0 auto;
+    display: block;
 }
 
 footer p {
-    text-align: right;
+    text-align: center;
     max-width: none;
 }
 
@@ -387,6 +387,15 @@ footer p {
         position: relative;
         top: -20px;
         right: -40px;
+    }
+    footer {
+        margin: 200px auto 50px auto;
+    }
+    footer .logo {
+        float: right;
+    }
+    footer p {
+        text-align: right;
     }
 }
 @media (min-width: 850px) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="590px" height="1284px" viewBox="0 0 590 1284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="500px" height="1223px" viewBox="0 0 500 1223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>howitworks-illustration</title>
     <desc>Created with Sketch.</desc>
@@ -21,7 +21,7 @@
     </defs>
     <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="howitworks-illustration">
-            <g transform="translate(-305.000000, -9.000000)">
+            <g transform="translate(78.000000, 672.000000) rotate(6.000000) translate(-78.000000, -672.000000) translate(-408.000000, -9.000000)">
                 <path d="M877.951874,130.544295 C800.390653,45.247839 660.608141,32.3646424 575.79128,87.4188957 C470.543231,155.734944 481.171305,258.246835 436.805704,345.829184 C351.157515,514.90769 154.088497,362.71107 103.052065,537.663117 C79.0851887,619.821176 97.3069796,765.457845 239.902734,850.904678 C456.208681,980.520445 292.553168,1136.85068 505.753725,1239.92881 C647.887429,1308.64756 752.443795,1325.20766 819.422822,1289.60911" id="Oval" stroke="#112E47" stroke-width="2" transform="translate(486.080766, 681.040736) scale(-1, 1) rotate(-9.000000) translate(-486.080766, -681.040736) "></path>
                 <g id="how-it-works-illustration" transform="translate(521.000000, 88.000000)">
                     <g id="Group-9" transform="translate(229.000000, 657.000000)">
@@ -80,54 +80,54 @@
                         <polyline id="Path-13-Copy" stroke="#2762A7" transform="translate(10.666667, 13.444444) rotate(-180.000000) translate(-10.666667, -13.444444) " points="8.2962963 22 5.33333333 22 5.33333333 4.88888889 16 4.88888889 16 22 13.037037 22"></polyline>
                     </g>
                 </g>
-            </g>
-            <g id="Group-2" transform="translate(397.000000, 228.000000)">
-                <path d="M18.5094559,56.7244689 C33.8988586,53.299315 44.8695892,47.5203112 51.4216475,39.3874574 C57.9737058,31.2546036 62.7642848,24.3297636 65.7933845,18.6129374" id="Path-29" stroke="#112E47" stroke-width="2" stroke-linecap="round" transform="translate(42.151420, 37.668703) rotate(2.000000) translate(-42.151420, -37.668703) "></path>
-                <path d="M78.3612345,4.58766972 L78.3612345,82.3503323 L4.59857183,82.3503323 C4.32242945,82.3503323 4.09857183,82.57419 4.09857183,82.8503323 C4.09857183,83.1264747 4.32242945,83.3503323 4.59857183,83.3503323 L78.3612345,83.3503323 L78.3612345,95.112995 C78.3612345,95.3891373 78.5850921,95.612995 78.8612345,95.612995 C79.1373768,95.612995 79.3612345,95.3891373 79.3612345,95.112995 L79.3612345,83.3503323 L95.1238971,83.3503323 C95.4000394,83.3503323 95.6238971,83.1264747 95.6238971,82.8503323 C95.6238971,82.57419 95.4000394,82.3503323 95.1238971,82.3503323 L79.3612345,82.3503323 L79.3612345,4.58766972 C79.3612345,4.31152735 79.1373768,4.08766972 78.8612345,4.08766972 C78.5850921,4.08766972 78.3612345,4.31152735 78.3612345,4.58766972 Z" id="Combined-Shape" stroke="#112E47" transform="translate(49.861234, 49.850332) rotate(4.000000) translate(-49.861234, -49.850332) "></path>
-                <g id="Group-5" transform="translate(43.303789, 66.259054) rotate(-2.000000) translate(-43.303789, -66.259054) translate(14.803789, 36.759054)">
-                    <g id="bar" transform="translate(21.604698, 32.501828) rotate(4.000000) translate(-21.604698, -32.501828) translate(14.104698, 9.001828)">
-                        <g id="Rectangle-13">
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M1.71428571,7.91176471 L1.71428571,42.2568145 L7.54291105,45.4082628 L13.2857143,42.2606801 L13.2857143,7.91176471 L1.71428571,7.91176471 Z"></path>
+                <g id="Group-2" transform="translate(702.000000, 237.000000)">
+                    <path d="M18.5094559,56.7244689 C33.8988586,53.299315 44.8695892,47.5203112 51.4216475,39.3874574 C57.9737058,31.2546036 62.7642848,24.3297636 65.7933845,18.6129374" id="Path-29" stroke="#112E47" stroke-width="2" stroke-linecap="round" transform="translate(42.151420, 37.668703) rotate(2.000000) translate(-42.151420, -37.668703) "></path>
+                    <path d="M78.3612345,4.58766972 L78.3612345,82.3503323 L4.59857183,82.3503323 C4.32242945,82.3503323 4.09857183,82.57419 4.09857183,82.8503323 C4.09857183,83.1264747 4.32242945,83.3503323 4.59857183,83.3503323 L78.3612345,83.3503323 L78.3612345,95.112995 C78.3612345,95.3891373 78.5850921,95.612995 78.8612345,95.612995 C79.1373768,95.612995 79.3612345,95.3891373 79.3612345,95.112995 L79.3612345,83.3503323 L95.1238971,83.3503323 C95.4000394,83.3503323 95.6238971,83.1264747 95.6238971,82.8503323 C95.6238971,82.57419 95.4000394,82.3503323 95.1238971,82.3503323 L79.3612345,82.3503323 L79.3612345,4.58766972 C79.3612345,4.31152735 79.1373768,4.08766972 78.8612345,4.08766972 C78.5850921,4.08766972 78.3612345,4.31152735 78.3612345,4.58766972 Z" id="Combined-Shape" stroke="#112E47" transform="translate(49.861234, 49.850332) rotate(4.000000) translate(-49.861234, -49.850332) "></path>
+                    <g id="Group-5" transform="translate(43.303789, 66.259054) rotate(-2.000000) translate(-43.303789, -66.259054) translate(14.803789, 36.759054)">
+                        <g id="bar" transform="translate(21.604698, 32.501828) rotate(4.000000) translate(-21.604698, -32.501828) translate(14.104698, 9.001828)">
+                            <g id="Rectangle-13">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M1.71428571,7.91176471 L1.71428571,42.2568145 L7.54291105,45.4082628 L13.2857143,42.2606801 L13.2857143,7.91176471 L1.71428571,7.91176471 Z"></path>
+                            </g>
+                            <g id="Rectangle-2" transform="translate(7.459435, 6.847255) rotate(36.000000) translate(-7.459435, -6.847255) ">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M4.72679946,3.55237325 L2.75765203,10.1421375 L10.1920707,10.1421375 L12.1612181,3.55237325 L4.72679946,3.55237325 Z"></path>
+                            </g>
+                            <path d="M7.6479672,11.6847682 L7.6479672,45.8250157" id="Path-4" stroke="#112E47" stroke-width="2"></path>
                         </g>
-                        <g id="Rectangle-2" transform="translate(7.459435, 6.847255) rotate(36.000000) translate(-7.459435, -6.847255) ">
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M4.72679946,3.55237325 L2.75765203,10.1421375 L10.1920707,10.1421375 L12.1612181,3.55237325 L4.72679946,3.55237325 Z"></path>
+                        <g id="bar-copy-3" transform="translate(46.570691, 29.338291) rotate(4.000000) translate(-46.570691, -29.338291) translate(39.070691, 0.838291)">
+                            <g id="Rectangle-13">
+                                <use fill="#97E2FF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M1.71428571,7.8533471 L1.71428571,51.3853023 L7.54232862,55.3361167 L13.2857143,51.3893537 L13.2857143,7.8533471 L1.71428571,7.8533471 Z"></path>
+                            </g>
+                            <g id="Rectangle-2" transform="translate(7.144748, 6.965485) rotate(36.000000) translate(-7.144748, -6.965485) ">
+                                <use fill="#97E2FF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M4.46924015,3.74115853 L2.54225958,10.1898111 L9.82025513,10.1898111 L11.7472357,3.74115853 L4.46924015,3.74115853 Z"></path>
+                            </g>
+                            <path d="M7.6479672,10.0220521 L7.6479672,55.8250157" id="Path-4" stroke="#112E47" stroke-width="2"></path>
                         </g>
-                        <path d="M7.6479672,11.6847682 L7.6479672,45.8250157" id="Path-4" stroke="#112E47" stroke-width="2"></path>
-                    </g>
-                    <g id="bar-copy-3" transform="translate(46.570691, 29.338291) rotate(4.000000) translate(-46.570691, -29.338291) translate(39.070691, 0.838291)">
-                        <g id="Rectangle-13">
-                            <use fill="#97E2FF" fill-rule="evenodd" xlink:href="#path-9"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M1.71428571,7.8533471 L1.71428571,51.3853023 L7.54232862,55.3361167 L13.2857143,51.3893537 L13.2857143,7.8533471 L1.71428571,7.8533471 Z"></path>
+                        <g id="bar-copy" transform="translate(33.717462, 37.889227) rotate(4.000000) translate(-33.717462, -37.889227) translate(26.217462, 19.889227)">
+                            <g id="Rectangle-13">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M1.61463361,7.13075574 L1.61463361,30.6517218 L7.40301997,33.9403765 L13.1860622,30.651966 L13.1860622,7.13075574 L1.61463361,7.13075574 Z"></path>
+                            </g>
+                            <g id="Rectangle-2" transform="translate(7.200611, 7.405715) rotate(36.000000) translate(-7.200611, -7.405715) ">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M4.85711203,3.8891445 L3.06379118,10.9222846 L9.5441103,10.9222846 L11.3374312,3.8891445 L4.85711203,3.8891445 Z"></path>
+                            </g>
+                            <path d="M7.34534486,11.3886972 L7.56913422,33.962366" id="Path-4" stroke="#112E47" stroke-width="2"></path>
                         </g>
-                        <g id="Rectangle-2" transform="translate(7.144748, 6.965485) rotate(36.000000) translate(-7.144748, -6.965485) ">
-                            <use fill="#97E2FF" fill-rule="evenodd" xlink:href="#path-10"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M4.46924015,3.74115853 L2.54225958,10.1898111 L9.82025513,10.1898111 L11.7472357,3.74115853 L4.46924015,3.74115853 Z"></path>
+                        <g id="bar-copy-2" transform="translate(9.325673, 41.492084) rotate(4.000000) translate(-9.325673, -41.492084) translate(1.825673, 27.992084)">
+                            <g id="Rectangle-13">
+                                <use fill="#B4F295" fill-rule="evenodd" xlink:href="#path-13"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M2,7.95263325 L2,22.0483815 L7.45434608,25.0761497 L13.1860622,22.0355077 L13.1860622,7.95263325 L2,7.95263325 Z"></path>
+                            </g>
+                            <g id="Rectangle-2" transform="translate(7.556004, 6.952633) rotate(36.000000) translate(-7.556004, -6.952633) ">
+                                <use fill="#B4F295" fill-rule="evenodd" xlink:href="#path-14"></use>
+                                <path stroke="#112E47" stroke-width="2" d="M4.88611431,3.83021634 L2.97962058,10.0750502 L10.225894,10.0750502 L12.1323877,3.83021634 L4.88611431,3.83021634 Z"></path>
+                            </g>
+                            <path d="M7.56913422,10.5734 L7.56913422,24.0360273" id="Path-4" stroke="#112E47" stroke-width="2"></path>
                         </g>
-                        <path d="M7.6479672,10.0220521 L7.6479672,55.8250157" id="Path-4" stroke="#112E47" stroke-width="2"></path>
-                    </g>
-                    <g id="bar-copy" transform="translate(33.717462, 37.889227) rotate(4.000000) translate(-33.717462, -37.889227) translate(26.217462, 19.889227)">
-                        <g id="Rectangle-13">
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M1.61463361,7.13075574 L1.61463361,30.6517218 L7.40301997,33.9403765 L13.1860622,30.651966 L13.1860622,7.13075574 L1.61463361,7.13075574 Z"></path>
-                        </g>
-                        <g id="Rectangle-2" transform="translate(7.200611, 7.405715) rotate(36.000000) translate(-7.200611, -7.405715) ">
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M4.85711203,3.8891445 L3.06379118,10.9222846 L9.5441103,10.9222846 L11.3374312,3.8891445 L4.85711203,3.8891445 Z"></path>
-                        </g>
-                        <path d="M7.34534486,11.3886972 L7.56913422,33.962366" id="Path-4" stroke="#112E47" stroke-width="2"></path>
-                    </g>
-                    <g id="bar-copy-2" transform="translate(9.325673, 41.492084) rotate(4.000000) translate(-9.325673, -41.492084) translate(1.825673, 27.992084)">
-                        <g id="Rectangle-13">
-                            <use fill="#B4F295" fill-rule="evenodd" xlink:href="#path-13"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M2,7.95263325 L2,22.0483815 L7.45434608,25.0761497 L13.1860622,22.0355077 L13.1860622,7.95263325 L2,7.95263325 Z"></path>
-                        </g>
-                        <g id="Rectangle-2" transform="translate(7.556004, 6.952633) rotate(36.000000) translate(-7.556004, -6.952633) ">
-                            <use fill="#B4F295" fill-rule="evenodd" xlink:href="#path-14"></use>
-                            <path stroke="#112E47" stroke-width="2" d="M4.88611431,3.83021634 L2.97962058,10.0750502 L10.225894,10.0750502 L12.1323877,3.83021634 L4.88611431,3.83021634 Z"></path>
-                        </g>
-                        <path d="M7.56913422,10.5734 L7.56913422,24.0360273" id="Path-4" stroke="#112E47" stroke-width="2"></path>
                     </g>
                 </g>
             </g>

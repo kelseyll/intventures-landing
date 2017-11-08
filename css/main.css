@@ -1,9 +1,7 @@
 /*
 IntVentures Main Stylesheet
-Kelsey Legault
-November 2017
+Developed November 2017
 */
-
 
 * {
     margin: 0;
@@ -25,33 +23,45 @@ body {
 h1 {
     -webkit-font-smoothing: antialiased;
     font-family: 'Untitled Sans', serif;
-    font-size: 65px;
+    font-size: 32px;
+    line-height: 47px;
     font-weight: 200;
-    line-height: 80px;
-    padding: 120px 0 85px 0;
+    padding: 120px 0 45px 0;
     color: #112E47;
+    text-align: center;
 }
 
 p {
     font-size: 15px;
-    max-width: 450px;
-    margin-top: 22px;
     line-height: 25px;
+    margin: 20px auto 0 auto;
+    max-width: 450px;
 }
 
 header {
     font-family: 'Untitled Sans', serif;
     font-size: 18px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 50px 12px;
+    flex-direction: column;
+}
+
+header div:first-child img {
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+header div {
+    justify-content: center;
 }
 
 header a {
     color: #112E47;
     font-weight: 200;
-    margin-left: 50px;
+    margin: 0 20px;
     padding: 8px 12px;
+    font-size: 14px;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -67,14 +77,16 @@ a:hover {
 
 .inner-container {
     margin: 0 auto;
-    padding: 0 12px;
-    max-width: 900px;
-    min-width: 1030px;
+    padding: 0 22px;
+    max-width: 1000px;
 }
 
 .hero-heading {
-    max-width: 750px;
-    padding-top: 150px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 760px;
+    text-align: center;
+    padding-top: 75px;
 }
 
 .hero-illustration {
@@ -82,26 +94,37 @@ a:hover {
     width: 600px;
     position: absolute;
     right: -200px;
-    top: 300px;
+    top: 200px;
 }
 
 .synergy-ball {
     display: none;
     position: absolute;
     right: 60px;
-    top: 520px;
+    top: 410px;
     width: 204px;
     z-index: -1;
 }
 
-.hero-paragraph {
+.hero-paragraph:last-of-type {
     margin-top: 50px;
+}
+
+.hero-paragraph {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 570px;
 }
 
 .button {
     border: #112E47 solid 2px;
     border-radius: 2px;
     padding: 8px 16px;
+}
+
+.testimonials .row {
+    justify-content: center;
+    flex-direction: column;
 }
 
 .testimonials span:first-of-type {
@@ -156,7 +179,7 @@ a:hover {
 }
 
 .testimonial {
-    padding-right: 75px;
+    justify-content: center;
 }
 
 .testimonial:last-of-type {
@@ -168,23 +191,17 @@ a:hover {
 }
 
 .testimonials .row:last-child {
-    margin-top: 10px;
-    margin-left: 150px;
+    margin-top: 70px;
 }
 
 .howitworks-illustration {
     position: absolute;
-    left: -10px;
-    top: 1400px;
+    left: -150px;
+    top: 1310px;
 }
 
 .howitworks-text {
     margin-top: -90px;
-    padding-left: 300px;
-}
-
-.howitworks-text .in {
-    padding-left: 110px;
 }
 
 .howitworks-text span,
@@ -194,34 +211,34 @@ a:hover {
 
 .howitworks-text span:first-child {
     color: #ACFF70;
-    padding-right: 40px;
-}
-
-.howitworks-text p {
-    padding-left: 70px;
+    padding-right: 10px;
 }
 
 .step {
+    text-align: center;
     margin-top: 110px;
 }
 
 h1.our-company  {
     margin-top: 80px;
     padding: 80px 30px 0 0;
-    text-align: right;
 }
 
 .company {
     margin-top: 80px;
 }
 
+.company-asset {
+    margin: 0 auto;
+}
+
+._listen {
+    flex-direction: column;
+}
+
 .title span {
     font-family:'Untitled Sans';
     padding-bottom: 4px;
-}
-
-.company-asset {
-    padding-right: 130px;
 }
 
 .title {
@@ -231,12 +248,16 @@ h1.our-company  {
 }
 
 .title p {
-    margin-top: 3px;
+    margin: 3px 0 0 0;
+}
+
+.deals-done {
+    position: relative;
+    right: -100px;
 }
 
 .we-listen {
-    position: relative;
-    top: -50px;
+    margin: 70px auto 0 auto;
 }
 
 .contact h1 {
@@ -272,18 +293,138 @@ footer p {
 
 .footer-illustration {
     position: absolute;
-    bottom: -3640px;
-    left: -10px;
+    bottom: -4000px;
+    left: -30px;
 }
 
+
+.hide-750 {
+    display: none;
+}
+.hide-850 {
+    display: none;
+}
+
+/* Media Queries */
+@media (min-width:450px) {
+    h1 {
+        font-size: 40px;
+        line-height: 57px;
+    }
+    header a {
+        font-size: 16px;
+    }
+    header div:first-child img {
+        margin: 0 auto 40px auto;
+    }
+}
+@media (min-width: 750px) {
+    .hide-750 {
+        display: inline;
+    }
+    header {
+        flex-direction: unset;
+    }
+    header div:first-child img {
+        margin: 0;
+    }
+    h1 {
+        font-size: 55px;
+        line-height: 80px;
+        text-align: inherit;
+        padding: 120px 0 85px 0;
+    }
+    h1.our-company {
+        text-align: right;
+        margin-bottom: 100px;
+    }
+    p {
+        margin: 22px 0 0 0;
+    }
+    .inner-container {
+        padding: 0 42px;
+    }
+    .testimonials .row {
+        justify-content: start;
+        flex-direction: unset;
+    }
+    .testimonial {
+        justify-content: base;
+        padding-right: 75px;
+    }
+    .testimonials .row:last-child {
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    .howitworks-illustration {
+        top: 1200px;
+    }
+    .howitworks-text {
+        padding-left: 260px;
+    }
+    .howitworks-text .in {
+        padding-left: 110px;
+    }
+    .howitworks-text span:first-child {
+        padding-right: 40px;
+    }
+    .howitworks-text p {
+        padding-left: 70px;
+        max-width: 450px;
+    }
+    .step {
+        text-align: inherit;
+    }
+    .company-asset {
+        width: 50%;
+        margin: 0;
+    }
+    ._listen {
+        flex-direction: unset;
+    }
+    .we-listen {
+        margin: 0;
+        position: relative;
+        top: -20px;
+        right: -40px;
+    }
+}
+@media (min-width: 850px) {
+    .hide-850 {
+        display: inline;
+    }
+}
 @media (min-width: 1030px) {
+    .inner-container {
+        padding: 0 12px;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    .hero-heading {
+        margin: 0;
+        max-width: 750px;
+        text-align: left;
+    }
     .hero-illustration {
         display: block;
         width: 641px;
         right: -200px;
     }
+    .hero-paragraph {
+        margin: 0;
+        text-align: left;
+        max-width: 450px;
+    }
     .synergy-ball {
         display: block;
+    }
+    .howitworks-illustration {
+        left: -10px;
+        top: 1250px;
+    }
+    .howitworks-text {
+        padding-left: 300px;
     }
 }
 

@@ -18,6 +18,7 @@ html {
 body {
     color: #112E47;
     font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -79,6 +80,7 @@ a:hover {
     margin: 0 auto;
     padding: 0 22px;
     max-width: 1000px;
+    overflow: hidden;
 }
 
 .hero-heading {
@@ -299,6 +301,7 @@ footer p {
 
 .footer-illustration {
     position: absolute;
+    /*Positioning for pop up modal contact form*/
     bottom: -3950px;
     left: -30px;
 }

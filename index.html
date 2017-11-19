@@ -31,15 +31,19 @@
     <body>
         <header class="flex _space-between">
             <div>
-                <img src="img/logo.svg" alt="logo">
+                <img class="logo" src="img/logo.svg" alt="logo">
             </div>
             <div class="flex _alignitems-center">
-                <a href="#works">How it Works</a>
+                <a href="#" class="mobile-only">
+                    <img class="hamburger" src="img/hamburger.svg" alt="menu">
+                </a>
+                <a class="hide-750" href="#works">How it Works</a>
                 <a class="hide-750" href="#company">Our Company</a>
-                <a class="button" href="#contact">Get in Touch</a>
+                <a class="hide-750 button" href="#contact">Get in Touch</a>
             </div>
         </header>
-        <div class="inner-container">
+        <div class="inner-container flex _direction-column">
+            <img class="mobile-only flex _alignself-flex-end mobile-hero-01" src="img/mobile-hero-01.svg" alt="paper">
             <h1 class="hero-heading">We make Internet business acquisitions simple and enjoyable.</h1>
             <img class="hero-illustration" src="img/hero-illustration.svg" alt="">
             <img class="synergy-ball floating" src="img/hero-synergy-ball.svg" alt="">
@@ -51,14 +55,18 @@
             <div class="testimonials">
                 <div class="flex row">
                     <div class="testimonial flex _alignitems-center">
-                        <img src="img/shopify-exchanges.svg" alt="">
+                        <div>
+                            <img src="img/shopify-exchanges.svg" alt="">
+                        </div>
                         <div class="flex _direction-column">
                             <span>Shopify Exchanges</span>
                             <span><a href="https://exchange.shopify.com" target="_blank">exchange.shopify.com ↗</a></span>
                         </div>
                     </div>
                     <div class="testimonial flex _alignitems-center">
-                        <img src="img/tiny.png" alt="">
+                        <div>
+                            <img src="img/tiny.png" alt="">
+                        </div>
                         <div class="flex _direction-column">
                             <span>Tiny Capital</span>
                             <span><a href="http://tiny.website" target="_blank">tiny.website ↗</a></span>
@@ -67,15 +75,19 @@
                 </div>
                 <div class="flex row">
                     <div class="testimonial flex _alignitems-center">
-                        <img src="img/pixel-union.svg" alt="">
+                        <div>
+                            <img src="img/pixel-union.svg" alt="">
+                        </div>
                         <div class="flex _direction-column">
                             <span>Pixel Union</span>
                             <span><a href="https://pixelunion.net" target="_blank">pixelunion.net ↗</a></span>
                         </div>
                     </div>
                     <div class="testimonial flex _alignitems-center">
-                        <img src="img/user-camp.png" alt="">
-                        <div class="flex _direction-column">
+                        <div>
+                            <img class="user-camp" src="img/user-camp.png" alt="user camp">
+                        </div>
+                        <div class="user-camp-text flex _direction-column">
                             <span>User Camp</span>
                             <span><a href="http://user.camp/" target="_blank">user.camp ↗</a></span>
                         </div>

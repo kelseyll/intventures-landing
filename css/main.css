@@ -39,8 +39,8 @@ h1 {
 }
 
 p {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 23px;
     margin: 20px auto 0 auto;
     max-width: 450px;
 }
@@ -50,13 +50,11 @@ header {
     font-size: 18px;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px 12px;
-    flex-direction: column;
+    padding: 30px 15px;
 }
 
-header div:first-child img {
-    margin: 0 auto 40px auto;
-    display: block;
+header .logo {
+    width: 150px;
 }
 
 header div {
@@ -73,6 +71,10 @@ header a {
     white-space: nowrap;
 }
 
+header a:first-child {
+    padding: 0;
+}
+
 a {
     transition: 0.5s;
 }
@@ -84,7 +86,7 @@ a:hover {
 
 .inner-container {
     margin: 0 auto;
-    padding: 0 22px;
+    padding: 0 20px;
     max-width: 1000px;
     overflow-x: hidden;
 }
@@ -197,17 +199,26 @@ a.contact-button {
     align-items: flex-end;
 }
 
+._alignself-flex-end {
+    align-self: flex-end;
+}
+
 .testimonials {
-    margin: 50px 0;
+    margin: 70px auto 0;
 }
 
-.testimonials img {
-    height: 60px;
+.testimonial img {
+    height: 48px;
     padding-right: 20px;
+    display: flex;
 }
 
-.testimonial {
-    justify-content: center;
+.testimonial img.user-camp {
+    height: 40px;
+}
+
+.testimonial div:first-of-type {
+    width: 90px;
 }
 
 .testimonial:last-of-type {
@@ -242,7 +253,6 @@ a.contact-button {
 }
 
 .step {
-    text-align: center;
     margin-top: 110px;
 }
 
@@ -313,6 +323,12 @@ footer p {
     bottom: 0;
 }
 
+/* Mobile only */
+.mobile-hero-01 {
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
 
 .hide-750 {
     display: none;
@@ -330,19 +346,21 @@ footer p {
     header a {
         font-size: 16px;
     }
-    header div:first-child img {
-        margin: 0 auto 40px auto;
+    .step {
+        text-align: center;
     }
 }
 @media (min-width: 750px) {
+    .mobile-only {
+        display: none;
+    }
+
     .hide-750 {
         display: inline;
     }
     header {
         flex-direction: unset;
-    }
-    header div:first-child img {
-        margin: 0;
+        padding: 40px 20px;
     }
     h1 {
         font-size: 55px;
@@ -356,6 +374,8 @@ footer p {
     }
     p {
         margin: 22px 0 0 0;
+        font-size: 15px;
+        line-height: 25px;
     }
     .inner-container {
         padding: 0 42px;
@@ -366,11 +386,26 @@ footer p {
     }
     .testimonial {
         justify-content: base;
-        padding-right: 75px;
+        padding-right: 95px;
     }
     .testimonials .row:last-child {
         margin-top: 10px;
         margin-left: 150px;
+    }
+    .testimonial img {
+        height: 55px;
+    }
+    .testimonial img.user-camp {
+        height: 50px;
+    }
+    .testimonial {
+        justify-content: center;
+    }
+    .testimonial div:first-of-type {
+        width: 80px;
+    }
+    .user-camp-text {
+        margin-left: 15px;
     }
     .howitworks-illustration {
         top: 1200px;
@@ -408,19 +443,19 @@ footer p {
         font-size: 27px;
         padding: 30px 0;
     }
-    footer {
-        margin: 200px auto 50px auto;
-    }
-    footer .logo {
-        float: right;
-    }
-    footer p {
-        text-align: right;
-    }
 }
 @media (min-width: 850px) {
     .hide-850 {
         display: inline;
+    }
+    footer {
+        margin: 200px 0;
+    }
+    footer p {
+        text-align: right;
+    }
+    footer .logo {
+        float: right;
     }
 }
 @media (min-width: 1030px) {
@@ -447,6 +482,9 @@ footer p {
     }
     .synergy-ball {
         display: block;
+    }
+    .testimonials {
+        margin: 50px 0;
     }
     .howitworks-illustration {
         left: -10px;

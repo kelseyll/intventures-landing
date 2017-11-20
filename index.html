@@ -1,216 +1,234 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>IntVentures</title>
+<head>
+    <meta charset="utf-8">
+    <title>IntVentures</title>
 
-        <!-- Web Fonts -->
-        <link rel="stylesheet" href="css/webfonts.css">
+    <!-- Web Fonts -->
+    <link rel="stylesheet" href="css/webfonts.css">
 
-        <!-- Stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/animations.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
 
-        <!-- Metadata -->
-        <meta property="og:url"                content="https://intventures.co/" />
-        <meta property="og:type"               content="website" />
-        <meta property="og:title"              content="IntVentures" />
-        <meta property="og:description"        content="We make Internet business acquisitions simple and enjoyable." />
-        <meta property="og:image"              content="https://intventures.co/img/meta-image.png" />
+    <!-- Metadata -->
+    <meta property="og:url"                content="https://intventures.co/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="IntVentures" />
+    <meta property="og:description"        content="We make Internet business acquisitions simple and enjoyable." />
+    <meta property="og:image"              content="https://intventures.co/img/meta-image.png" />
 
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 
-        <!-- Mobile Scale -->
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Mobile Scale -->
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 
-        <!-- Javascript -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    </head>
-    <body>
-        <header class="flex _space-between">
-            <div>
-                <img class="logo" src="img/logo.svg" alt="logo">
-            </div>
-            <div class="flex _alignitems-center">
-                <a href="#" class="mobile-only">
-                    <img class="hamburger" src="img/hamburger.svg" alt="menu">
-                </a>
-                <a class="hide-750" href="#works">How it Works</a>
-                <a class="hide-750" href="#company">Our Company</a>
-                <a class="hide-750 button" href="#contact">Get in Touch</a>
-            </div>
-        </header>
-        <div class="inner-container flex _direction-column">
-            <img class="mobile-only flex _alignself-flex-end mobile-hero-01" src="img/mobile-hero-01.svg" alt="paper">
-            <h1 class="hero-heading">We make Internet business acquisitions simple and enjoyable.</h1>
-            <img class="mobile-only flex _alignself-flex-start mobile-hero-02" src="img/mobile-hero-02.svg" alt="paper">
-            <img class="hero-illustration" src="img/hero-illustration.svg" alt="">
-            <img class="synergy-ball floating" src="img/hero-synergy-ball.svg" alt="">
-            <p class="hero-paragraph">
-                We have helped hundreds of Internet business owners buy and sell their websites and apps. We take the
-                friction out of the acquisition process from deal sourcing to closing.
-            </p>
-            <p class="hero-paragraph"><b>Some of our clients include:</b></p>
-            <div class="testimonials">
-                <div class="flex row">
-                    <div class="testimonial flex _alignitems-center">
-                        <div>
-                            <img src="img/shopify-exchanges.svg" alt="">
-                        </div>
-                        <div class="flex _direction-column">
-                            <span>Shopify Exchanges</span>
-                            <span><a href="https://exchange.shopify.com" target="_blank">exchange.shopify.com ↗</a></span>
-                        </div>
-                    </div>
-                    <div class="testimonial flex _alignitems-center">
-                        <div>
-                            <img src="img/tiny.png" alt="">
-                        </div>
-                        <div class="flex _direction-column">
-                            <span>Tiny Capital</span>
-                            <span><a href="http://tiny.website" target="_blank">tiny.website ↗</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex row">
-                    <div class="testimonial flex _alignitems-center">
-                        <div>
-                            <img src="img/pixel-union.svg" alt="">
-                        </div>
-                        <div class="flex _direction-column">
-                            <span>Pixel Union</span>
-                            <span><a href="https://pixelunion.net" target="_blank">pixelunion.net ↗</a></span>
-                        </div>
-                    </div>
-                    <div class="testimonial flex _alignitems-center">
-                        <div>
-                            <img class="user-camp" src="img/user-camp.png" alt="user camp">
-                        </div>
-                        <div class="user-camp-text flex _direction-column">
-                            <span>User Camp</span>
-                            <span><a href="http://user.camp/" target="_blank">user.camp ↗</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img class="mobile-only flex _alignself-flex-end comet-01" src="img/comet-01.svg" alt="paper">
-            <h1 id="works">How it Works</h1>
-            <div class="flex _direction-column">
-                <img class="howitworks-illustration hide-750" src="img/howitworks-illustration.svg" alt="">
-                <div class="howitworks-text">
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106476285-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-106476285-1');
+    </script>
+</head>
+<body>
+    <header class="flex _space-between">
+        <div>
+            <img class="logo" src="img/logo.svg" alt="logo">
+        </div>
+        <div class="flex _alignitems-center">
+            <a href="#" class="mobile-only">
+                <img class="hamburger" src="img/hamburger.svg" alt="menu">
+            </a>
+            <a class="hide-750" href="#works">How it Works</a>
+            <a class="hide-750" href="#company">Our Company</a>
+            <a class="hide-750 button" href="#contact">Get in Touch</a>
+        </div>
+        <div class="menu-overlay flex  _direction-column">
+            <svg class="hamburger-close" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+            <a class="menu-overlay-large" href="#works">How it Works</a>
+            <a class="menu-overlay-large" href="#company">Our Company</a>
+            <a class="menu-overlay-large button _small-button" href="#contact">Get in Touch</a>
+        </div>
+    </header>
+    <div class="inner-container flex _direction-column">
+        <img class="mobile-only flex _alignself-flex-end mobile-hero-01" src="img/mobile-hero-01.svg" alt="paper">
+        <h1 class="hero-heading">We make Internet business acquisitions simple and enjoyable.</h1>
+        <img class="mobile-only flex _alignself-flex-start mobile-hero-02" src="img/mobile-hero-02.svg" alt="paper">
+        <img class="hero-illustration" src="img/hero-illustration.svg" alt="">
+        <img class="synergy-ball floating" src="img/hero-synergy-ball.svg" alt="">
+        <p class="hero-paragraph">
+            We have helped hundreds of Internet business owners buy and sell their websites and apps. We take the friction out of the acquisition process from deal sourcing to closing.
+        </p>
+        <p class="hero-paragraph"><b>Some of our clients include:</b></p>
+        <div class="testimonials">
+            <div class="flex row">
+                <div class="testimonial flex _alignitems-center">
                     <div>
-                        <div class="step">
-                            <span>01</span>
-                            <span>RESEARCH</span>
-                            <p>
-                                Tell us your needs and objectives. What Internet businesses do you want to buy, and why do
-                                you want to buy them?
-                            </p>
-                        </div>
-                        <div class="step in">
-                            <span>02</span>
-                            <span>GATHER OFFERS</span>
-                            <p>
-                                We hit the ground running. We source off market deals on your behalf and analyze the risk
-                                and potential for you, keeping your business objectives in mind.
-                            </p>
-                        </div>
-                        <div class="step in">
-                            <span>03</span>
-                            <span>CHOOSE OFFER</span>
-                            <p>
-                                You choose from amongst the awesome business-buying opportunities we’ve found for you.
-                            </p>
-                        </div>
-                        <div class="step">
-                            <span>04</span>
-                            <span>CLOSE</span>
-                            <p>
-                                We guide you through the negotiation, LOI, due diligence and closing process until you
-                                become the happy new owner of a savvy investment.
-                            </p>
-                        </div>
+                        <img src="img/shopify-exchanges.svg" alt="">
+                    </div>
+                    <div class="flex _direction-column">
+                        <span>Shopify Exchanges</span>
+                        <span><a href="https://exchange.shopify.com" target="_blank">exchange.shopify.com ↗</a></span>
+                    </div>
+                </div>
+                <div class="testimonial flex _alignitems-center">
+                    <div>
+                        <img src="img/tiny.png" alt="">
+                    </div>
+                    <div class="flex _direction-column">
+                        <span>Tiny Capital</span>
+                        <span><a href="http://tiny.website" target="_blank">tiny.website ↗</a></span>
                     </div>
                 </div>
             </div>
-            <h1 id="company" class="our-company">Our Company</h1>
-            <img class="mobile-only deals-done-mobile" src="img/deals-done-mobile.svg" alt="deals done">
-            <div class="flex company minus-margin">
-                <div class="company-asset">
-                    <span>$2.5MM DEALS DONE THIS YEAR</span>
-                    <p>
-                        We have landed and managed hundreds of website and app sales, ranging from four to six figures
-                        throughout our experience, and we’ve developed a system that excels at spotting the good
-                        businesses from the bad ones quickly and effectively.
-                    </p>
-                    <p>
-                        We’ve managed over $2.5MM transactions this year, a number that’s growing with our impeccable
-                        reputation in the industry. We care about your investment because we only reach our potential
-                        when you reach yours.
-                    </p>
+            <div class="flex row">
+                <div class="testimonial flex _alignitems-center">
+                    <div>
+                        <img src="img/pixel-union.svg" alt="">
+                    </div>
+                    <div class="flex _direction-column">
+                        <span>Pixel Union</span>
+                        <span><a href="https://pixelunion.net" target="_blank">pixelunion.net ↗</a></span>
+                    </div>
                 </div>
-                <div class="deals-done hide-750">
-                    <img src="img/deals-done.svg" alt="" width="300px">
-                </div>
-            </div>
-            <div class="flex company">
-                <div class="company-asset hide-750">
-                    <img src="img/human-centered.svg" alt="" width="300px">
-                </div>
-                <div class="company-asset">
-                    <span>HUMAN-CENTERED APPROACH</span>
-                    <p>
-                        We understand prospective sellers, and we take an honest, upfront approach in our
-                        communications. Rest assured that we represent your brand image like it’s our own
-                        throughout the whole process.
-                    <p/>
-                    <p>
-                        Understand that we treat prospective sellers with the respect they deserve for a smooth,
-                        amicable transfer. We keep people in the center of every deal.
-                    </p>
-                </div>
-            </div>
-            <div class="flex company _listen">
-                <div class="company-asset">
-                    <span>WE LISTEN</span>
-                    <p>
-                        We listen to your needs and objectives at the beginning, and we continue to listen to your
-                        feedback throughout the process.
-                    </p>
-                    <p>
-                        We keep your business objectives at heart to make sure everything we do adds value to you.
-                    </p>
-                </div>
-                <div class="we-listen">
-                    <img src="img/intventures-ceo.png" alt="" width="300px">
-                    <div class="title">
-                        <span>Genie Guo</span>
-                        <p><b>CEO <b class="hide-750">of IntVentures</b></b></p>
+                <div class="testimonial flex _alignitems-center">
+                    <div>
+                        <img class="user-camp" src="img/user-camp.png" alt="user camp">
+                    </div>
+                    <div class="user-camp-text flex _direction-column">
+                        <span>User Camp</span>
+                        <span><a href="http://user.camp/" target="_blank">user.camp ↗</a></span>
                     </div>
                 </div>
             </div>
-            <div id="contact" class="contact">
-                <h1>Contact us, you’ll get a reply in 2 -3 business days.</h1>
-                <!-- Iframe -->
-                <!-- <div class="typeform-widget" data-url="https://genieguo.typeform.com/to/MZbLKX" style="width: 100%; height: 500px;border:1px solid #acfaff;border-radius:3px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com//?utm_campaign=MZbLKX&amp;utm_source=typeform.com-11118309-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div> -->
+        </div>
+        <img class="mobile-only flex _alignself-flex-end comet-01" src="img/comet-01.svg" alt="paper">
+        <h1 id="works">How it Works</h1>
+        <div class="flex _direction-column">
+            <img class="howitworks-illustration hide-750" src="img/howitworks-illustration.svg" alt="">
+            <div class="howitworks-text">
+                <div>
+                    <div class="step">
+                        <span>01</span>
+                        <span>GATHER REQUIREMENTS</span>
+                        <p>
+                            Tell us your needs and objectives. What Internet businesses do you want to buy, and why do you want to buy them?
+                        </p>
+                    </div>
+                    <div class="step in">
+                        <span>02</span>
+                        <span>SOURCE DEALS</span>
+                        <p>
+                            We hit the ground running. We research the industry and source off market deals on your behalf, analyzing their risk and potential while keeping your business objectives in mind.
+                        </p>
+                    </div>
+                    <div class="step in">
+                        <span>03</span>
+                        <span>CHOOSE OFFER</span>
+                        <p>
+                            You choose from amongst the awesome business-buying opportunities we’ve found for you.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <span>04</span>
+                        <span>CLOSE</span>
+                        <p>
+                            We guide you through the valuation, negotiation, deal structures, contracts, and due diligence process until you become the happy new owner of an awesome business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 id="company" class="our-company">Our Company</h1>
+        <img class="mobile-only-450 deals-done-mobile" src="img/deals-done-mobile.svg" alt="deals done">
+        <div class="flex company minus-margin">
+            <div class="company-asset">
+                <span>$2.5MM DEALS DONE THIS YEAR</span>
+                <p>
+                    We have landed and managed hundreds of website and app sales, ranging from four to seven figures throughout our experience, and we’ve developed a system that excels at spotting the good business buying opportunities quickly and effectively.
+                </p>
+                <p>
+                    We’ve managed $3.7MM acquisitions since we launched this year, a number that’s growing with our impeccable reputation in the industry.
+                </p>
+            </div>
+            <div class="deals-done hide-750">
+                <img src="img/deals-done.svg" alt="" width="300px">
+            </div>
+        </div>
+        <img class="mobile-only human-centered-mobile" src="img/human-centered-mobile.svg" alt="human-centered approach">
+        <div class="flex company">
+            <div class="company-asset hide-750">
+                <img src="img/human-centered.svg" alt="" width="300px">
+            </div>
+            <div class="company-asset">
+                <span>HUMAN-CENTERED APPROACH</span>
+                <p>
+                    We understand prospective sellers, and we take an honest, upfront approach in our communications. Rest assured that we represent your brand image like it’s our own throughout the whole process.
+                </p>
+                    <p>
+                        Understand that we treat prospective sellers with the respect they deserve for a smooth, amicable transfer. We keep people in the center of every deal.
+                    </p>
+            </div>
+        </div>
+        <div class="we-listen-mobile mobile-only">
+            <div class="w100">
+                <span class="name-underline">Genie Guo</span>
+                <p class="mt0"><b>CEO of IntVentures</b></p>
+            </div>
+            <img src="img/intventures-ceo.png" alt="Genie, CEO">
+        </div>
+        <div class="flex company _listen">
+            <div class="company-asset">
+                <span>WE LISTEN</span>
+                <p>
+                    We listen to your needs and objectives at the beginning, and we continue to listen to your feedback throughout the process.
+                </p>
+                <p>
+                    We keep your business objectives at heart to make sure everything we do adds value to you. We care about your goals because we only reach our potential when you reach yours.
+                </p>
+            </div>
+            <div class="we-listen hide-750">
+                <img src="img/intventures-ceo.png" alt="" width="300px">
+                <div class="title">
+                    <span>Genie Guo</span>
+                    <p><b>CEO <b class="hide-750">of IntVentures</b></b></p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <h1>Contact us, you’ll get a reply in 2 -3 business days.</h1>
+            <!-- Iframe -->
+            <!-- <div class="typeform-widget" data-url="https://genieguo.typeform.com/to/MZbLKX" style="width: 100%; height: 500px;border:1px solid #acfaff;border-radius:3px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com//?utm_campaign=MZbLKX&amp;utm_source=typeform.com-11118309-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div> -->
 
-                <!-- Pop up modal -->
-                <a class="typeform-share contact-button" href="https://genieguo.typeform.com/to/MZbLKX" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">Get in Touch </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            <!-- Pop up modal -->
+            <a class="typeform-share contact-button" href="https://genieguo.typeform.com/to/MZbLKX" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">Get in Touch </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+        <footer>
+            <div class="footer-text">
+                <img class="footer-illustration hide-850 mobile-450-important" src="img/footer-illustration.svg" alt="">
+                <img class="logo" src="img/logo.svg" alt="logo"><br/><br/>
+                <p>Int Ventures Ltd<br/>© 2017</p>
+                <p>500-1112 Fort Street<br/>Victoria BC, Canada<br/>V8V 3K8</p>
             </div>
-            <footer>
-                <div class="footer-text">
-                    <img class="footer-illustration hide-850" src="img/footer-illustration.svg" alt="">
-                    <img class="logo" src="img/logo.svg" alt="logo"><br/><br/>
-                    <p>Int Ventures Ltd<br/>© 2017</p>
-                    <p>500-1112 Fort Street<br/>Victoria BC, Canada<br/>V8V 3K8</p>
-                </div>
-            </footer>
+        </footer>
         </div>
     </body>
     <script type="text/javascript">
     // Scroll to Section from Nav
+    $('.hamburger').click(function(){
+        $('.menu-overlay').addClass("__menu-overlay-active");
+    });
+    $('.hamburger-close, .menu-overlay-large').click(function(){
+        $('.menu-overlay').removeClass("__menu-overlay-active");
+    });
     $('a').click(function(){
         $('html, body').animate({
             scrollTop: $( $(this).attr('href') ).offset().top
@@ -219,4 +237,4 @@
     });
 
     </script>
-</html>
+    </html>

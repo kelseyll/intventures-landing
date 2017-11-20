@@ -33,9 +33,8 @@ h1 {
     font-size: 32px;
     line-height: 47px;
     font-weight: 200;
-    padding: 120px 0 45px 0;
+    padding: 50px 0 45px 0;
     color: #112E47;
-    text-align: center;
 }
 
 p {
@@ -116,13 +115,9 @@ a:hover {
     z-index: -1;
 }
 
-.hero-paragraph:last-of-type {
-    margin-top: 50px;
-}
-
 .hero-paragraph {
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto 0;
     max-width: 570px;
 }
 
@@ -195,8 +190,8 @@ a.contact-button {
     align-items: center;
 }
 
-._alignitems-flex-end {
-    align-items: flex-end;
+._alignself-flex-start {
+    align-self: flex-start;
 }
 
 ._alignself-flex-end {
@@ -214,7 +209,7 @@ a.contact-button {
 }
 
 .testimonial img.user-camp {
-    height: 40px;
+    height: 37px;
 }
 
 .testimonial div:first-of-type {
@@ -233,6 +228,12 @@ a.contact-button {
     margin-top: 70px;
 }
 
+.comet-01 {
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+}
+
 .howitworks-illustration {
     position: absolute;
     left: -150px;
@@ -246,6 +247,7 @@ a.contact-button {
 .howitworks-text span,
 .company span {
     font-family: 'HK Grotesk', sans-serif;
+    font-size: 14px;
 }
 
 .howitworks-text span:first-child {
@@ -256,8 +258,14 @@ a.contact-button {
     margin-top: 110px;
 }
 
+.step p {
+    border-top: 1px solid #92FF50;
+    padding: 12px 0;
+    margin-top: 13px;
+}
+
 h1.our-company  {
-    margin-top: 80px;
+    margin-top: 25px;
     padding: 80px 30px 0 0;
 }
 
@@ -330,6 +338,13 @@ footer p {
     top: 60px;
 }
 
+.mobile-hero-02 {
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+}
+
+
 .hide-750 {
     display: none;
 }
@@ -342,6 +357,7 @@ footer p {
     h1 {
         font-size: 40px;
         line-height: 57px;
+        text-align: center;
     }
     header a {
         font-size: 16px;
@@ -371,6 +387,11 @@ footer p {
     h1.our-company {
         text-align: right;
         margin-bottom: 100px;
+        margin-top: 80px;
+        padding: 80px 30px 0 0;
+    }
+    .hero-paragraph:first-of-type {
+        margin-top: 0px;
     }
     p {
         margin: 22px 0 0 0;
@@ -414,17 +435,25 @@ footer p {
         padding-left: 260px;
     }
     .howitworks-text .in {
-        padding-left: 110px;
+        padding-left: 130px;
     }
     .howitworks-text span:first-child {
-        padding-right: 40px;
+        padding-right: 30px;
+        font-size: 16px;
     }
     .howitworks-text p {
-        padding-left: 70px;
+        padding-left: 60px;
         max-width: 450px;
+    }
+    .company span {
+        font-size: 16px;
     }
     .step {
         text-align: inherit;
+        margin-top: 110px;
+    }
+    .step p {
+        border-top: none;
     }
     .company-asset {
         width: 50%;
@@ -476,7 +505,7 @@ footer p {
         right: -200px;
     }
     .hero-paragraph {
-        margin: 0;
+        margin: 50px 0 0;
         text-align: left;
         max-width: 450px;
     }

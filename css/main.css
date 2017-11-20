@@ -269,12 +269,20 @@ h1.our-company  {
     padding: 80px 30px 0 0;
 }
 
+.company-asset {
+    margin: 0 auto;
+}
+
 .company {
     margin-top: 80px;
 }
 
-.company-asset {
-    margin: 0 auto;
+.flex.company:first-of-type {
+    color: red;
+}
+
+.company:first-child {
+    margin-top: 0;
 }
 
 ._listen {
@@ -344,6 +352,15 @@ footer p {
     bottom: 30px;
 }
 
+.deals-done-mobile {
+    position: relative;
+    left: 137px;
+    bottom: 50px;
+}
+
+.minus-margin {
+    margin-top: -20px;
+}
 
 .hide-750 {
     display: none;

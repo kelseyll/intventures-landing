@@ -254,7 +254,7 @@ a.contact-button {
 }
 
 .step {
-    margin-top: 110px;
+    margin-top: 90px;
 }
 
 .step p {
@@ -647,5 +647,11 @@ footer p {
     }
     .synergy-ball {
         right: 160px;
+    }
+}
+@media (max-width: 358px) {
+    .hero-heading {
+        font-size: 8.6vw;
+        line-height: 1.6;
     }
 }
